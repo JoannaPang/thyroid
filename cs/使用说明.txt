@@ -1,0 +1,3 @@
+1.先运行matservice.py（服务器）
+2.再运行testimg.py（客户端）
+客户端读取一张图片resize到227*227发送到服务器，服务器保存图片，并调用featureservice.py对图片进行预测返回预测值到客户端。    
